@@ -1,0 +1,24 @@
+blockname:"<No Mesh>"
+blockautomesh:1
+meshsize:0
+blockgroup:0
+blockxy:(innerRadius/2),(0)
+segmentpropname:""
+segmentelementsize:meshSizeFine
+segmentautomesh:0
+segmenthide:0
+segmentgroup:1
+segmentinconductor:"elecCond"
+arcmaxsegdeg:meshSizeFine
+arcpropname:""
+archide:0
+arcgroup:1
+arcinconductor:"elecCond"
+selectexcept:
+arcs:2-1,pi/2,0.2,3-2,pi/2,0.2
+nodes:
+(0),(electrodeThickness)
+(innerRadius),(electrodeThickness)
+(innerRadius+electrodeThickness),(0)
+(innerRadius),(-electrodeThickness)
+(0),(-electrodeThickness)
